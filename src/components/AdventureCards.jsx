@@ -1,9 +1,9 @@
 import React from 'react'
 
-const AdventureCards = () => {
+const AdventureCards = (props) => {
   return (
     <div className='border-2 w-fit p-3 rounded-2xl flex flex-col m-auto'>
-        <img src="frame1.png" alt="" width="260px" height="265px"/>
+        <img src={props.img} alt="" width="260px" height="265px"/>
         <div className='flex justify-between text-[12px]'>
             <p>Desert King</p>
             <p className=''>IMBT per night</p>

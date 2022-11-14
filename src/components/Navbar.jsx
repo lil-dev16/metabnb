@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import { NavLink } from 'react-router-dom'
+import {GiHamburgerMenu} from 'react-icons/gi'
 
 export const Navbar = (props) => {
   // const [isHidden, setIsHidden] = useState(props.isHidden) ;
@@ -23,7 +24,7 @@ export const Navbar = (props) => {
         <a href="" className="hidden md:block px-6 py-3 bg-wallet-gradient text-white rounded-[10px]" onClick={(e)=> {
           props.changeVal()
           e.preventDefault()}}>Connect Wallet</a>
-        <p className='md:hidden'>kfjkgr</p>
+        <GiHamburgerMenu className='md:hidden'/>
     </div>
     </nav>
   )
