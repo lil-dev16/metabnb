@@ -14,7 +14,8 @@ module.exports = {
       colors: {
         red: "red",
         brightRed: "hsl(12, 88%, 59%)",
-        purple: "#A02279"
+        purple: "#A02279",
+        grey: "rgba(64, 64, 64, 0.3)"
       }
     },
   },

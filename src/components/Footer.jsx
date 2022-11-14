@@ -4,7 +4,7 @@ import FooterComp from './FooterComp'
 const Footer = () => {
   return (
     <div className='bg-black'>
-        <div className='mx-auto container text-white flex justify-between py-[3rem]'>
+        <div className='mx-auto container text-white flex flex-col md:flex-row justify-between py-[3rem]'>
             <div>
                 <img src="Group.svg" alt="metaNfts" className='mb-[5rem]'/>
                 <div className='mb-[2rem] flex items-center justify-between w-[6rem]'>

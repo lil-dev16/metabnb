@@ -1,7 +1,13 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { NavLink } from 'react-router-dom'
 
-export const Navbar = () => {
+export const Navbar = (props) => {
+  // const [isHidden, setIsHidden] = useState(props.isHidden) ;
+  const handleClick = (e) => {
+    // setIsHidden(prev => !prev)
+    e.preventDefault();
+    // console.log(isHidden);
+  }
   return (
     <nav className='mx-auto container py-6'>
     <div className='flex items-center justify-between'>
@@ -9,12 +15,14 @@ export const Navbar = () => {
             <img src="Group.png" alt="logo" />
         </div>
         <div className='hidden md:flex space-x-6'>
-            <NavLink>Home</NavLink>
-            <NavLink>Place to stay</NavLink>
+            <NavLink to="/">Home</NavLink>
+            <NavLink to="/placeToStay">Place to stay</NavLink>
             <NavLink>NFTs</NavLink>
             <NavLink>Community</NavLink>
         </div>
-        <a href="" className="hidden md:block px-6 py-3 bg-wallet-gradient text-white rounded-[10px]">Connect Wallet</a>
+        <a href="" className="hidden md:block px-6 py-3 bg-wallet-gradient text-white rounded-[10px]" onClick={(e)=> {
+          props.changeVal()
+          e.preventDefault()}}>Connect Wallet</a>
         <p className='md:hidden'>kfjkgr</p>
     </div>
     </nav>

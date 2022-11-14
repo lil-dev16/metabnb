@@ -2,12 +2,12 @@ import React from 'react'
 
 const Hero = () => {
   return (
-    <div className='container mx-auto grid grid-cols-2 gap-14 mt-[60px] justify-between'>
+    <div className='container mx-auto grid grid-cols-1 md:grid-cols-2 gap-14 mt-[60px] justify-between '>
         <div className='grid gap-1'>
             <h1 className='text-4xl'>Rent a <span className='text-purple'>Place</span> away from <span className='text-purple'>Home</span> in the <span className='text-purple'>Metaverse</span></h1>
             <p>we provide you access to luxury and affordable houses in the metaverse, get a chance to turn your imagination to reality at your comfort zone</p>
             <div className=''>
-            <input type="text" className=' input border-2 p-3 py-2 w-[250px] rounded-l-md outline-0' placeholder='Search for location'/><button className='p-2.5 px-14 bg-wallet-gradient rounded-r-md cursor-pointer text-white'>Search</button>  
+            <input type="text" className=' input border-2 px-3 py-2 w-[250px] rounded-l-md outline-0' placeholder='Search for location'/><button className='p-2.5 px-6 md:px-14 bg-wallet-gradient rounded-r-md cursor-pointer text-white'>Search</button>  
             </div>
         </div>
         <div className='grid grid-cols-2 gap-2'>

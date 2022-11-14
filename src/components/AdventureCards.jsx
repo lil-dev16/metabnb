@@ -2,7 +2,7 @@ import React from 'react'
 
 const AdventureCards = () => {
   return (
-    <div className='border-2 w-fit p-3 rounded-2xl flex flex-col '>
+    <div className='border-2 w-fit p-3 rounded-2xl flex flex-col m-auto'>
         <img src="frame1.png" alt="" width="260px" height="265px"/>
         <div className='flex justify-between text-[12px]'>
             <p>Desert King</p>
