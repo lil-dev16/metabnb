@@ -89,6 +89,60 @@ const items= [
         fourthP: "available for 2weeks only",
         stars: "star.png"
     },
+    {
+        id:11,
+        imgSrc: "img11.png",
+        firstP: "Desert King",
+        secongP: "IMBT per night",
+        thirdP: "2345km away",
+        fourthP: "available for 2weeks only",
+        stars: "star.png"
+    },
+    {
+        id:12,
+        imgSrc: "img12.png",
+        firstP: "Desert King",
+        secongP: "IMBT per night",
+        thirdP: "2345km away",
+        fourthP: "available for 2weeks only",
+        stars: "star.png"
+    },
+    {
+        id:13,
+        imgSrc: "img13.png",
+        firstP: "Desert King",
+        secongP: "IMBT per night",
+        thirdP: "2345km away",
+        fourthP: "available for 2weeks only",
+        stars: "star.png"
+    },
+    {
+        id:14,
+        imgSrc: "img14.png",
+        firstP: "Desert King",
+        secongP: "IMBT per night",
+        thirdP: "2345km away",
+        fourthP: "available for 2weeks only",
+        stars: "star.png"
+    },
+    {
+        id:15,
+        imgSrc: "img15.png",
+        firstP: "Desert King",
+        secongP: "IMBT per night",
+        thirdP: "2345km away",
+        fourthP: "available for 2weeks only",
+        stars: "star.png"
+    },
+    {
+        id:16,
+        imgSrc: "img16.png",
+        firstP: "Desert King",
+        secongP: "IMBT per night",
+        thirdP: "2345km away",
+        fourthP: "available for 2weeks only",
+        stars: "star.png"
+    },
 ]
 
 export default items

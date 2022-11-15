@@ -6,7 +6,7 @@ const AdventureCards = (props) => {
         <img src={props.img} alt="" width="260px" height="265px"/>
         <div className='flex justify-between text-[12px]'>
             <p>Desert King</p>
-            <p className=''>IMBT per night</p>
+            <p className='font-bold'>IMBT per night</p>
         </div>
         <div className='flex justify-between text-[12px]'>
             <p>2345km away</p>
