@@ -14,7 +14,7 @@ const MetaNfts = () => {
                     <img src="img7.png" alt="" className='absolute ml-[-170px] w-[200px] md:w-[300px]'/>
                     <img src="img8.png" alt="" className='absolute mt-[84px] w-[200px] md:w-[300px] ml-[21px]'/>
                 </div> */}
-              <img src="trpics.png"/>
+              <img src="trpics.png" alt="pics"/>
         </div>
     </div>
   )

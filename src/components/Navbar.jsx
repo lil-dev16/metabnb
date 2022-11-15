@@ -1,14 +1,8 @@
-import React, { useState } from 'react'
+import React from 'react'
 import { NavLink } from 'react-router-dom'
 import {GiHamburgerMenu} from 'react-icons/gi'
 
 export const Navbar = (props) => {
-  // const [isHidden, setIsHidden] = useState(props.isHidden) ;
-  const handleClick = (e) => {
-    // setIsHidden(prev => !prev)
-    e.preventDefault();
-    // console.log(isHidden);
-  }
   return (
     <nav className='mx-auto container py-6'>
     <div className='flex items-center justify-between'>
@@ -21,9 +15,9 @@ export const Navbar = (props) => {
             <NavLink>NFTs</NavLink>
             <NavLink>Community</NavLink>
         </div>
-        <a href="" className="hidden md:block px-6 py-3 bg-wallet-gradient text-white rounded-[10px]" onClick={(e)=> {
+        <button className="hidden md:block px-6 py-3 bg-wallet-gradient text-white rounded-[10px]" onClick={(e)=> {
           props.changeVal()
-          e.preventDefault()}}>Connect Wallet</a>
+          e.preventDefault()}}>Connect Wallet</button>
         <GiHamburgerMenu className='md:hidden'/>
     </div>
     </nav>
