@@ -11,7 +11,7 @@ export const Navbar = (props) => {
         </div>
         <div className='hidden md:flex space-x-6'>
             <NavLink to="/">Home</NavLink>
-            <NavLink to="/placeToStay">Place to stay</NavLink>
+            <NavLink to="/PlaceToStay">Place to stay</NavLink>
             <NavLink>NFTs</NavLink>
             <NavLink>Community</NavLink>
         </div>
