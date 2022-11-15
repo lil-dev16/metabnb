@@ -5,7 +5,7 @@ import items from '../components/items'
 import Modal from '../components/Modal'
 import { Navbar } from '../components/Navbar'
 
-const PlaceToStay = () => {
+const Place = () => {
   const [isHidden, setIsHidden] = useState(false);
   const ite = items.map(item=> {
     return <AdventureCards
@@ -44,4 +44,4 @@ const PlaceToStay = () => {
   )
 }
 
-export default PlaceToStay
+export default Place
